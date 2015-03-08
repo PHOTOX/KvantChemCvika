@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} %řeší chyby se zalamovanim radku
+\usepackage[czech]{babel}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb} %matematické fonty
+\usepackage{epstopdf} %vkládání eps obrázků do pdf souboru
+\usepackage{color}
+\usepackage{picinpar}
+\usepackage{booktabs} %lepsi vzhled tabulek
+\usepackage[top=2cm,bottom=2cm,right=2.cm,left=2.0cm]{geometry}  %%%okraje
+\usepackage[bf]{caption}   %tucne "Figure" a "table'
+\captionsetup{width=0.9\textwidth} %úprava šířky popisků
+\captionsetup{textfont=it, font=small} %úprava fontů u obrázků, text bude menší a italikou
+
+\graphicspath{{obrazky/}{../obrazky/}} %adresar pro obrazky
+
+%kontrola vdov a sirotku
+\usepackage[defaultlines=4,all]{nowidow}
+
+\usepackage[pdftitle={Úvod do Linuxu},
+pdfauthor={J. Chalabala, D. Hollas, P. Slavíček},
+bookmarks=true,
+colorlinks=true,
+breaklinks=true,
+urlcolor=red,
+citecolor=blue,
+linkcolor=blue,
+unicode=true,
+pdfstartview=FitV]{hyperref}
+
+%\usepackage[super,sort&compress,comma]{natbib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Úvod do Linux a Unixu pro chemiky}
+\author{J. Chalabala, D. Hollas, P. Slavíček}
+
+\begin{document}
+\pagestyle{empty}
+\maketitle
+
+\tableofcontents
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\clearpage
+\section{Pro koho je text určen?}
+
+Tento text je primárně určen pro studenty chemie na Vysoké škole chemicko technologické, které si zapíší některý z předmětů dotýkajících se kvantové nebo počítačové chemie. Kvantová chemie se dnes prakticky výhradně aplikuje pomocí náročných výpočtů, které probíhají na výkonných superpočítačích nebo počítačových klastrech. Naprostá většina těchto systémů pracuje pod systémem Linux, se kterým se ale většina studentů chemie ještě nesetkala. Tento text by tedy měl naučit studenty základy Linuxu a práce v příkazové řádce tak, aby mohl sám zadávat kvantově-chemické výpočty na výpočetních klastrech. 
+
+\clearpage
+\section{Stručná historie Unixu a Linuxu}
+Předtím, než se ponoříme do samotného Linuxu, musíme si vlastně trochu osvětlit, co je to operační systém,
+jak vlastně funguje a co je jeho práce.
+
+\subsection{Co je to operační systém?}
+
+Stručná historie a definice pojmů...
+
+\clearpage
+\section{Nebojme se příkazové řádky}
+
+Co je to shell a nejznámější shelly?
+
+Obecná struktura příkazů v Linuxu.(přepínače, man pages )
+
+\clearpage
+\section{Textové editory pro příkazovou řádku}
+
+\clearpage
+\section{Příloha: Jak se připojit na klastr z MS Windows}
+
+Stáhnutí a spuštění Putty
+
+\clearpage
+\section{•}
+
+\end{document}
