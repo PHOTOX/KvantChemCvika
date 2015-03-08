@@ -6,6 +6,8 @@
 *.fls
 *.out
 *.toc
+# DH: also exclude all pdfs!! They can be recompiled anyway.
+*.pdf
 
 ## Intermediate documents:
 *.dvi
